@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b45c54c5-dd24-4e2e-a101-05f9acc924c2" name="Changes" comment="APITest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_DELETE/APITesting010_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example013.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" afterDir="false" />
+    <list default="true" id="b45c54c5-dd24-4e2e-a101-05f9acc924c2" name="Changes" comment="Changes APITest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example016_DependsOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example017_testng_parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example018_Testng_Enabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example019_TestngAlwaysRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example15_Grouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example20_invocationCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_DELETE/APITestin012_BDDStyle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_DELETE/APITesting013_NonBDDStyle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_PATCH/APITesting009_NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_PATCH/APITesting009_NonBDDStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,9 @@
     &quot;accountId&quot;: &quot;4a946bcf-8543-4773-9d95-9037aa3aca91&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -87,6 +90,9 @@
     "TestNG.Testng_Example012.executor": "Run",
     "TestNG.Testng_Example012.test_put.executor": "Run",
     "TestNG.Testng_Example013.executor": "Run",
+    "TestNG.Testng_Example014.executor": "Run",
+    "TestNG.Testng_Example15.executor": "Run",
+    "TestNG.Testng_Example15_Grouping.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -99,25 +105,7 @@
       <recent name="C:\Users\tabre\IdeaProjects\ATB8X-APIAutomationProgram" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Testng_Example013">
-    <configuration name="APITesting009_NonBDDStyle.test_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8X-APIAutomationProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.APITesting_PATCH.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.APITesting_PATCH" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.APITesting_PATCH.APITesting009_NonBDDStyle" />
-      <option name="METHOD_NAME" value="test_NonBDDStyle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Testng_Example15_Grouping">
     <configuration name="APITesting011_TCIntegration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8X-APIAutomationProgram" />
       <extension name="coverage">
@@ -152,24 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testng_Example012.test_put" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8X-APIAutomationProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.APITesting_testngExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.APITesting_testngExample" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.APITesting_testngExample.Testng_Example012" />
-      <option name="METHOD_NAME" value="test_put" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Testng_Example013" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8X-APIAutomationProgram" />
       <extension name="coverage">
@@ -187,13 +157,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Testng_Example014" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8X-APIAutomationProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.APITesting_testngExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.APITesting_testngExample" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.APITesting_testngExample.Testng_Example014" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testng_Example15_Grouping" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8X-APIAutomationProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.APITesting_testngExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.APITesting_testngExample" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.APITesting_testngExample.Testng_Example15_Grouping" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Testng_Example15_Grouping" />
+        <item itemvalue="TestNG.Testng_Example014" />
         <item itemvalue="TestNG.Testng_Example013" />
         <item itemvalue="TestNG.Testng_Example012" />
-        <item itemvalue="TestNG.Testng_Example012.test_put" />
         <item itemvalue="TestNG.APITesting011_TCIntegration" />
-        <item itemvalue="TestNG.APITesting009_NonBDDStyle.test_NonBDDStyle" />
       </list>
     </recent_temporary>
   </component>
@@ -238,14 +242,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733644478913</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes APITest">
+      <option name="closed" value="true" />
+      <created>1737860239404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737860239404</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All" />
     <MESSAGE value="APITest002" />
     <MESSAGE value="APITest" />
-    <option name="LAST_COMMIT_MESSAGE" value="APITest" />
+    <MESSAGE value="Changes APITest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes APITest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ATB8X_APIAutomationProgram$APITesting011_TCIntegration_test_update_request_put.ic" NAME="APITesting011_TCIntegration.test_update_request_put Coverage Results" MODIFIED="1733928838903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
