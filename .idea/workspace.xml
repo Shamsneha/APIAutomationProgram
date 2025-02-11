@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45c54c5-dd24-4e2e-a101-05f9acc924c2" name="Changes" comment="Changes APITest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example016_DependsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example017_testng_parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example018_Testng_Enabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example019_TestngAlwaysRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example15_Grouping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example20_invocationCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Assertions/APITesting_Assertions01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Assertions/APITesting_Assertions02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Assertions/APITesting_Assertions03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" afterDir="false" />
     </list>
@@ -62,6 +60,7 @@
     "Application.APITest002.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.APITesting003_BDDStyle_GetRequest.test_GET_Req.executor": "Run",
     "TestNG.APITesting006_BDDStyle.executor": "Run",
@@ -250,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737860239404</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes APITest">
+      <option name="closed" value="true" />
+      <created>1738744159768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738744159768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
