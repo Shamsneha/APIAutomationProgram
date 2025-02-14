@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45c54c5-dd24-4e2e-a101-05f9acc924c2" name="Changes" comment="Changes APITest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Assertions/APITesting_Assertions01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Assertions/APITesting_Assertions02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Assertions/APITesting_Assertions03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/APITesting01_Payload_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/APITesting02_Payload_Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/APITesting03_Payload_POJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/DifficultWay/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/DifficultWay/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/GSON/APITesting_Payload_GSONDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/GSON/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/GSON/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/GSON/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Payload_Managment/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/APITesting_testngExample/Testng_Example014.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TCIntegration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.APITest002.executor": "Run",
+    "Application.APITesting02_Payload_Demo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -79,11 +85,13 @@
     "TestNG.APITesting011_TCIntegration.test_update_request_put (1).executor": "Debug",
     "TestNG.APITesting011_TCIntegration.test_update_request_put.executor": "Coverage",
     "TestNG.APITesting013_NonBDDStyle.test_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting01_Payload_Map.executor": "Run",
     "TestNG.APITesting_003_BDDStyle_GetRequest.test_GET_PositiveRequest.executor": "Run",
     "TestNG.APITesting_004_NonBDDStyle_GetRequest.executor": "Run",
     "TestNG.APITesting_004_NonBDDStyle_GetRequest.test_GET_Request_NonBDDStyle.executor": "Run",
     "TestNG.APITesting_005_AllureReport.executor": "Run",
     "TestNG.APITesting_GET_Request_TestNg.test_GET_Request.executor": "Run",
+    "TestNG.APITesting_Payload_GSONDemo.executor": "Run",
     "TestNG.C:/Users/tabre/IdeaProjects/ATB8X-APIAutomationProgram/testng.xml.executor": "Run",
     "TestNG.C:/Users/tabre/IdeaProjects/ATB8X-APIAutomationProgram/testng_NonBDDStyle_Get.xml.executor": "Run",
     "TestNG.Testng_Example012.executor": "Run",
@@ -104,17 +112,30 @@
       <recent name="C:\Users\tabre\IdeaProjects\ATB8X-APIAutomationProgram" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Testng_Example15_Grouping">
-    <configuration name="APITesting011_TCIntegration" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.APITesting_Payload_GSONDemo">
+    <configuration name="APITesting02_Payload_Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.Payload_Managment.APITesting02_Payload_Demo" />
       <module name="ATB8X-APIAutomationProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.Integration.*" />
+          <option name="PATTERN" value="com.thetestingacademy.Payload_Managment.DifficultWay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.Integration" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.Integration.APITesting011_TCIntegration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting01_Payload_Map" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8X-APIAutomationProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.Payload_Managment.DifficultWay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.Payload_Managment" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.Payload_Managment.APITesting01_Payload_Map" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -122,33 +143,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testng_Example012" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITesting_Payload_GSONDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8X-APIAutomationProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.APITesting_testngExample.*" />
+          <option name="PATTERN" value="com.thetestingacademy.Payload_Managment.GSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.APITesting_testngExample" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.APITesting_testngExample.Testng_Example012" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testng_Example013" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8X-APIAutomationProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.APITesting_testngExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.APITesting_testngExample" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.APITesting_testngExample.Testng_Example013" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.Payload_Managment.GSON" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.Payload_Managment.GSON.APITesting_Payload_GSONDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -192,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITesting_Payload_GSONDemo" />
+        <item itemvalue="Application.APITesting02_Payload_Demo" />
+        <item itemvalue="TestNG.APITesting01_Payload_Map" />
         <item itemvalue="TestNG.Testng_Example15_Grouping" />
         <item itemvalue="TestNG.Testng_Example014" />
-        <item itemvalue="TestNG.Testng_Example013" />
-        <item itemvalue="TestNG.Testng_Example012" />
-        <item itemvalue="TestNG.APITesting011_TCIntegration" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738744159768</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changes APITest">
+      <option name="closed" value="true" />
+      <created>1739284436670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739284436670</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
